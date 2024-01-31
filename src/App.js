@@ -20,8 +20,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/meeting" element={<Meeting payload={payload} />} />
+        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/" element={<Meeting payload={payload} />} />
         {/* <Route index element={<Home />} /> */}
       </Routes>
     </BrowserRouter>
